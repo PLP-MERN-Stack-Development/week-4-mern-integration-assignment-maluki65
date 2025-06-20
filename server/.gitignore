@@ -1,0 +1,48 @@
+# Node modules (both client and server)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*   # For additional env files like .env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+client/dist/
+server/dist/
+
+# Vite cache
+client/.vite/
+
+# Coverage reports
+coverage/
+
+# Optional: IDE-specific files
+.vscode/
+.idea/
+
+# Uploaded images or files
+uploads/
+
+# Mac system files
+.AppleDouble
+.LSOverride
+Icon?
+
+# Local database files
+*.local.db
+*.sdb
+
+# Optional: TypeScript cache
+*.tsbuildinfo
